@@ -1,0 +1,47 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-school",
+      "description": "Modern school building exterior",
+      "imageUrl": "https://picsum.photos/seed/school1/1200/600",
+      "imageHint": "modern school"
+    },
+    {
+      "id": "classroom",
+      "description": "Bright modern classroom with students",
+      "imageUrl": "https://picsum.photos/seed/classroom/800/500",
+      "imageHint": "classroom students"
+    },
+    {
+      "id": "library",
+      "description": "Well-stocked school library",
+      "imageUrl": "https://picsum.photos/seed/library/800/500",
+      "imageHint": "school library"
+    },
+    {
+      "id": "sports",
+      "description": "School sports field and track",
+      "imageUrl": "https://picsum.photos/seed/sports/800/500",
+      "imageHint": "school sports"
+    },
+    {
+      "id": "principal",
+      "description": "School principal portrait",
+      "imageUrl": "https://picsum.photos/seed/principal/400/400",
+      "imageHint": "professional educator"
+    },
+    {
+      "id": "faculty-1",
+      "description": "Science teacher",
+      "imageUrl": "https://picsum.photos/seed/teacher1/300/300",
+      "imageHint": "teacher"
+    },
+    {
+      "id": "faculty-2",
+      "description": "Math teacher",
+      "imageUrl": "https://picsum.photos/seed/teacher2/300/300",
+      "imageHint": "teacher"
+    }
+  ]
+}
