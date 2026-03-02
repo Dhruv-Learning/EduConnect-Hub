@@ -66,9 +66,9 @@ export default function ContactPage() {
 
               <div className="space-y-4">
                 {[
-                  { icon: MapPin, title: "Address", content: "123 Education Lane, Academic District, City-456789" },
+                  { icon: MapPin, title: "Address", content: "123 Education Lane, Lucknow District, City-456789" },
                   { icon: Phone, title: "Phone", content: "+91 9988776655" },
-                  { icon: Mail, title: "Email", content: "info@educonnecthub.edu" },
+                  { icon: Mail, title: "Email", content: "dhruva@educonnecthub.edu" },
                   { icon: Clock, title: "Hours", content: "Mon - Sat: 8:00 AM - 4:00 PM" },
                 ].map((item, idx) => (
                   <div key={idx} className="flex gap-4 p-4 rounded-xl border bg-white shadow-sm hover:border-primary/30 transition-colors">
@@ -99,7 +99,7 @@ export default function ContactPage() {
                           render={({ field }) => (
                             <FormItem>
                               <FormLabel>Full Name</FormLabel>
-                              <FormControl><Input placeholder="John Doe" {...field} /></FormControl>
+                              <FormControl><Input placeholder="Dhruv Sharma" {...field} /></FormControl>
                               <FormMessage />
                             </FormItem>
                           )}
@@ -110,7 +110,7 @@ export default function ContactPage() {
                           render={({ field }) => (
                             <FormItem>
                               <FormLabel>Email Address</FormLabel>
-                              <FormControl><Input placeholder="john@example.com" {...field} /></FormControl>
+                              <FormControl><Input placeholder="dhruva@example.com" {...field} /></FormControl>
                               <FormMessage />
                             </FormItem>
                           )}
